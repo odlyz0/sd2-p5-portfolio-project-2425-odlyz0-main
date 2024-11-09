@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(180deg, #202529, #0f3e5a);
+    font-family: "M PLUS Code Latin", sans-serif;
+    min-height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 20px;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.profileImage {
+    width: 250px;
+    height: 250px;
+    background-color: #b3e6ff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #00aaff;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#contact-btn, #resume-btn {
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#contact-btn {
+    background-color: #b0b0b0;
+}
+
+#contact-btn:hover {
+    background-color: #5c5c5c;
+}
+
+#resume-btn {
+    background-color: #007bff;
+}
+
+#resume-btn:hover {
+    background-color: #0f437e;
+}
+
+
+
+
+
+
+
+.arrowDown {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.selection h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.selection p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.button {
+    background-color: #777;
+    color: #f0f0f0;
+    padding: 45px 60px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background-color: #007acc;
+    transform: translateY(-5px);
+}
+
+.description {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
